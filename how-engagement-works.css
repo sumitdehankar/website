@@ -1,0 +1,23 @@
+.engagement-intro {
+    max-width: 760px;
+    margin-bottom: 72px;
+}
+
+.engagement-intro h1 {
+    margin-bottom: 24px;
+}
+
+.engagement-step {
+    margin-bottom: 64px;
+    max-width: 820px;
+}
+
+.engagement-step h2 {
+    margin-bottom: 18px;
+    font-size: 2rem;
+}
+
+.engagement-step p {
+    line-height: 1.8;
+    color: #4b5563;
+}

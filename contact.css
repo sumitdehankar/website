@@ -1,0 +1,22 @@
+.contact-links {
+    margin-top: 72px;
+    max-width: 760px;
+}
+
+.contact-links h2 {
+    margin-bottom: 18px;
+}
+
+.contact-links p {
+    margin-bottom: 24px;
+    color: #4b5563;
+}
+
+.contact-links ul {
+    padding-left: 20px;
+}
+
+.contact-links li {
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
