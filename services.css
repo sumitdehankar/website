@@ -57,3 +57,11 @@
         font-size: 1.6rem;
     }
 }
+
+.service-card h4 {
+    margin-top: 22px;
+    margin-bottom: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111827;
+}
