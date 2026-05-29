@@ -6,7 +6,6 @@
     <title>About | Sumit Dehankar</title>
 
     <link rel="stylesheet" href="styles.css" />
-    
   </head>
 
   <body>
@@ -31,22 +30,23 @@
 
         <p>
           Most of my work has involved systems that were already operating at
-          scale — systems with existing operational history, reliability tradeoffs,
-          deployment pressure, debugging friction, and growing complexity over
-          time.
+          scale — systems with existing operational history, reliability
+          tradeoffs, deployment pressure, debugging friction, and growing
+          complexity over time.
         </p>
 
         <p>
-          I became increasingly interested in the kinds of backend problems where
-          the symptoms are obvious, but the underlying cause is not. Latency
-          increases without a clear bottleneck. Deployments become unreliable.
-          Operational visibility exists but doesn’t provide enough clarity to make
-          confident decisions.
+          Over time I found myself drawn to the kinds of backend problems that
+          are difficult to explain. APIs become slower without an obvious
+          bottleneck. Deployments start creating risk that nobody can clearly
+          account for. Production issues consume engineering time even though
+          monitoring and logging already exist.
         </p>
 
         <p>
-          That investigation-oriented operational work is the focus of this
-          practice.
+          These are usually not implementation problems. They are understanding
+          problems. Before a team can improve a system, it needs a clear picture
+          of what is actually happening and why.
         </p>
       </section>
 
@@ -68,30 +68,29 @@
         </ul>
 
         <p>
-          I’m particularly interested in operational problems that span multiple
-          components and don’t have immediately obvious root causes.
+          I’m particularly interested in backend problems where multiple
+          systems, workflows, or operational decisions interact in ways that
+          make the real cause difficult to identify.
         </p>
       </section>
 
       <section class="about-section">
-        <h2>Why Investigation Before Improvement</h2>
+        <h2>Why Diagnosis Comes First</h2>
 
         <p>
           Teams under delivery pressure often move directly toward fixes before
-          fully understanding the operational dynamics behind a problem. That can
-          temporarily reduce visible symptoms while leaving the underlying issue
-          unresolved.
+          fully understanding the operational dynamics behind a problem. That
+          can temporarily reduce visible symptoms while leaving the underlying
+          issue unresolved.
         </p>
 
-        <p>
-          I intentionally separate engagements into two phases:
-        </p>
+        <p>I intentionally separate engagements into two phases:</p>
 
         <ul>
           <li>
-            <strong>Investigation & Diagnosis</strong> — identifying bottlenecks,
-            operational pressure points, investigation gaps, and realistic
-            improvement priorities
+            <strong>Investigation & Diagnosis</strong> — identifying
+            bottlenecks, operational pressure points, investigation gaps, and
+            realistic improvement priorities
           </li>
 
           <li>
@@ -107,13 +106,39 @@
           move toward clearer, more maintainable operational behavior.
         </p>
       </section>
+      <section class="about-section">
+        <h2>Typical Situations</h2>
 
+        <ul>
+          <li>
+            API latency has gradually increased but the team cannot identify a
+            single bottleneck.
+          </li>
+
+          <li>
+            Production incidents take significantly longer to diagnose than they
+            should.
+          </li>
+
+          <li>
+            Deployments regularly introduce uncertainty, rollback pressure, or
+            unexpected behavior.
+          </li>
+
+          <li>
+            Teams spend increasing amounts of time firefighting recurring
+            operational issues.
+          </li>
+
+          <li>
+            Monitoring exists, but it still isn't clear why problems occur.
+          </li>
+        </ul>
+      </section>
       <section class="about-section">
         <h2>How I Work</h2>
 
-        <p>
-          Engagements are async-first, scoped, and intentionally focused.
-        </p>
+        <p>Engagements are async-first, scoped, and intentionally focused.</p>
 
         <p>
           I typically work from the operational context a team can provide —
